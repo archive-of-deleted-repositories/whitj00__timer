@@ -1,18 +1,16 @@
 cordova.define('cordova/plugin_list', function(require, exports, module) {
 module.exports = [
     {
-        "file": "plugins/cordova-plugin-splashscreen/www/splashscreen.js",
-        "id": "cordova-plugin-splashscreen.SplashScreen",
+        "file": "plugins/nl.x-services.plugins.insomnia/www/Insomnia.js",
+        "id": "nl.x-services.plugins.insomnia.Insomnia",
+        "pluginId": "nl.x-services.plugins.insomnia",
         "clobbers": [
-            "navigator.splashscreen"
+            "window.plugins.insomnia"
         ]
     }
 ];
 module.exports.metadata = 
 // TOP OF METADATA
-{
-    "cordova-plugin-whitelist": "1.0.0",
-    "cordova-plugin-splashscreen": "2.1.0"
-}
+{}
 // BOTTOM OF METADATA
 });
